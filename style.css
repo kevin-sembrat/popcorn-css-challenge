@@ -3,3 +3,65 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+body {
+  background-color: #D4A76A;
+
+
+
+}
+
+.header {
+  background-color: #FFDBAA;
+  padding: 50px;
+
+  /* display:flex;
+  align-items:center; */
+
+}
+
+.airline_name {
+  font-size: 40px;
+  float: left;
+  color: #805215;
+
+
+}
+
+.menu_buttons {
+  font-size: 30px;
+  float: right;
+  padding: 8px;
+
+}
+
+
+button {
+  font-size: 12;
+  color: white;
+  background-color: #805215;
+}
+
+
+.content {
+  -ms-flex-align: center;
+
+  text-align: center;
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  margin: 60px;
+  box-shadow: 5px 5px 10px grey;
+
+  font-size: 20px;
+}
+
+.middle-content {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.bottom-content {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
