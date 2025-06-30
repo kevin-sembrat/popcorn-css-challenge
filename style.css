@@ -6,33 +6,25 @@ Main background - #D4A76A*/
 
 body {
   background-color: #D4A76A;
-
-
-
 }
 
 .header {
   background-color: #FFDBAA;
-  padding: 50px;
+  padding: 25px;
+  justify-content: left;
 
-  /* display:flex;
-  align-items:center; */
-
+  display:flex;
 }
 
 .airline_name {
   font-size: 40px;
-  float: left;
   color: #805215;
-
-
 }
 
 .menu_buttons {
   font-size: 30px;
-  float: right;
   padding: 8px;
-
+  margin-right: 25px;
 }
 
 
@@ -43,25 +35,30 @@ button {
 }
 
 
+
 .content {
-  -ms-flex-align: center;
 
-  text-align: center;
-  background-color: white;
-  width: 400px;
-  padding: 20px;
-  margin: 60px;
-  box-shadow: 5px 5px 10px grey;
-
-  font-size: 20px;
 }
 
+/* section */
 .middle-content {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+  display: flex;
+  text-align: center;
+}
+
+p {
+  text-align: left;
+}
+
+/* article */
+.option {
+  padding: 10px;
+  margin: 10px;
+  background: white;
 }
 
 .bottom-content {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+  display: flex;
+  text-align: center;
 }
+
